@@ -11,6 +11,8 @@ apt-get install -y build-essential
 apt-get install -y git
 
 npm install -g yo
+npm install -g bower
+npm install -g gulp
 
 if ! [ -L /var/www ]; then
     rm -rf /var/www
@@ -29,10 +31,19 @@ npm install -g generator-react-static
 npm install -g generator-powermvc
 npm install -g generator-react-webpack
 
-
-
+npm install -g generator-react-aspnet-boilerplate
+npm install -g generator-vue-net-core
 # .net core
 sh -c 'echo "deb [arch=amd64] https://apt-mo.trafficmanager.net/repos/dotnet-release/ yakkety main" > /etc/apt/sources.list.d/dotnetdev.list'
 apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 417A0893
 apt-get update
 apt-get install -y dotnet-dev-1.0.0-preview2.1-003177
+
+# look at the following ... to install dnx
+# https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-create-web-app-using-vscode
+
+# this one looks the biz
+# http://www.dotnetcurry.com/aspnet/1234/aspnet5-apps-using-visual-studio-code-vscode-yeoman
+
+
+# code --install-extension ms-vscode.csharp
