@@ -16,6 +16,7 @@ each item can be categorised along many dimensions. yee ha!
 
 explore much tech with this!
 
+also, watching a video youtube/vimeo : need to store where you are up to.
 
 Tech:
 -----
